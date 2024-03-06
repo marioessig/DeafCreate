@@ -1,0 +1,23 @@
+{
+    "type": "create:mixing",
+    "ingredients": [
+      {
+        "item": "minecraft:black_dye"
+      },
+      {
+        "item": "minecraft:glowstone_dust"
+      },
+      {
+        "fluid": "minecraft:water",
+        "nbt": {},
+        "amount": 250
+      }
+    ],
+    "results": [
+      {
+        "item": "minecraft:glow_ink_sac",
+        "amount": 1
+      }
+    ],
+  "heatRequirement": "none"
+}

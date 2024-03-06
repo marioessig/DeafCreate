@@ -1,0 +1,19 @@
+{
+    "type": "create:crushing",
+    "ingredients": [
+      {
+        "item": "minecraft:diamond_helmet"
+      }
+    ],
+    "results": [
+      {
+        "item": "minecraft:diamond",
+        "count": 2
+      },
+      {
+        "item": "minecraft:diamond",
+        "chance": 0.25
+      }
+    ],
+    "processingTime": 350
+  }

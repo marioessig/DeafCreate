@@ -1,0 +1,15 @@
+{
+    "type": "create:crushing",
+    "ingredients": [
+      {
+        "item": "minecraft:diamond_hoe"
+      }
+    ],
+    "results": [
+      {
+        "item": "minecraft:diamond",
+        "chance": 0.75
+      }
+    ],
+    "processingTime": 350
+  }

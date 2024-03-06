@@ -1,0 +1,15 @@
+{
+    "type": "create:crushing",
+    "ingredients": [
+      {
+        "item": "minecraft:diamond_shovel"
+      }
+    ],
+    "results": [
+      {
+        "item": "minecraft:diamond",
+        "chance": 0.25
+      }
+    ],
+    "processingTime": 350
+  }
