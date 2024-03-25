@@ -2,100 +2,12 @@
     "type": "create:compacting",
     "ingredients": [
       {
-        "item": "minecraft:basalt"
+        "item": "minecraft:basalt",
+        "amount": 16
       },
       {
-        "item": "minecraft:basalt"
-      },
-      {
-        "item": "minecraft:basalt"
-      },
-      {
-        "item": "minecraft:basalt"
-      },
-      {
-        "item": "minecraft:basalt"
-      },
-      {
-        "item": "minecraft:basalt"
-      },
-      {
-        "item": "minecraft:basalt"
-      },
-      {
-        "item": "minecraft:basalt"
-      },
-      {
-        "item": "minecraft:basalt"
-      },
-      {
-        "item": "minecraft:basalt"
-      },
-      {
-        "item": "minecraft:basalt"
-      },
-      {
-        "item": "minecraft:basalt"
-      },
-      {
-        "item": "minecraft:basalt"
-      },
-      {
-        "item": "minecraft:basalt"
-      },
-      {
-        "item": "minecraft:basalt"
-      },
-      {
-        "item": "minecraft:basalt"
-      },
-      {
-        "item": "minecraft:bone_block"
-      },
-      {
-        "item": "minecraft:bone_block"
-      },
-      {
-        "item": "minecraft:bone_block"
-      },
-      {
-        "item": "minecraft:bone_block"
-      },
-      {
-        "item": "minecraft:bone_block"
-      },
-      {
-        "item": "minecraft:bone_block"
-      },
-      {
-        "item": "minecraft:bone_block"
-      },
-      {
-        "item": "minecraft:bone_block"
-      },
-      {
-        "item": "minecraft:bone_block"
-      },
-      {
-        "item": "minecraft:bone_block"
-      },
-      {
-        "item": "minecraft:bone_block"
-      },
-      {
-        "item": "minecraft:bone_block"
-      },
-      {
-        "item": "minecraft:bone_block"
-      },
-      {
-        "item": "minecraft:bone_block"
-      },
-      {
-        "item": "minecraft:bone_block"
-      },
-      {
-        "item": "minecraft:bone_block"
+        "item": "minecraft:bone_block",
+        "amount": 16
       },
       {
         "fluid": "minecraft:lava",
