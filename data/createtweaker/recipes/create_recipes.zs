@@ -114,4 +114,4 @@ craftingTable.addShaped("crafted_book",
 //Ink Sac
   <recipetype:create:mixing>.addRecipe("mixed_ink_sac",
   "none", 
-  <item:minecraft:ink_sac>, [<item:minecraft:black_dye>, <item:minecraft:water>]);
+  <item:minecraft:ink_sac>, [<item:minecraft:black_dye>, <fluid:minecraft:water>]);
