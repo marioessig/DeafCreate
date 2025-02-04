@@ -9,10 +9,10 @@ import mods.create.MixingManager;
 //                                COMPACTING
 //____________________________________________________________________________________________________________________________
 // FluidStacks
-// CompactingManager.addRecipe(name as string, heat as HeatCondition, outputs as IFluidStack[], itemInputs as IIngredientWithAmount[], fluidInputs as FluidIngredient[], duration as int)
+// [Example] CompactingManager.addRecipe(name as string, heat as HeatCondition, outputs as IFluidStack[], itemInputs as IIngredientWithAmount[], fluidInputs as FluidIngredient[], duration as int)
 
 // ItemStacks
-// CompactingManager.addRecipe(name as string, heat as HeatCondition, outputs as Percentaged<IItemStack>[], itemInputs as IIngredientWithAmount[], fluidInputs as FluidIngredient[], duration as int)
+// [Example] CompactingManager.addRecipe(name as string, heat as HeatCondition, outputs as Percentaged<IItemStack>[], itemInputs as IIngredientWithAmount[], fluidInputs as FluidIngredient[], duration as int)
 
 // Tuff Block
 <recipetype:create:compacting>.addRecipe("compacted_tuff", <constant:create:heat_condition:heated>, [<item:minecraft:tuff>], [<item:betternether:basalt_bricks> * 4, <item:betternether:bone_block> * 4], [<fluid:minecraft:lava> * 2750], 350);
@@ -21,6 +21,7 @@ import mods.create.MixingManager;
 //____________________________________________________________________________________________________________________________
 //                                CRAFTING
 //____________________________________________________________________________________________________________________________
+// [Example]
 // https://github.com/CraftTweaker/CraftTweaker/blob/1.19/Common/src/main/resources/data/crafttweaker/scripts/crafttweaker_crafting_recipes.zs
 // Standard Format:
 //   craftingTable.addShaped(" ", <>, [
@@ -50,11 +51,18 @@ craftingTable.addShaped("crafted_book",<item:minecraft:book>, [
     [<item:minecraft:bamboo>,<item:minecraft:paper>,<item:minecraft:bamboo>]
 ]);
 
+// Vegan Feather
+craftingTable.addShaped("crafted_feather", <item:minecraft:feather>, [
+    [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:white_wool>],
+    [<item:minecraft:air>, <item:minecraft:stick>, <item:minecraft:air>],
+    [<item:minecraft:string>, <item:minecraft:air>, <item:minecraft:air>]
+]);
+
 
 //____________________________________________________________________________________________________________________________
 //                                CRUSHING
 //____________________________________________________________________________________________________________________________
-// CrushingManager.addRecipe(name as string, output as Percentaged<IItemStack>[], input as IIngredient, duration as int)
+// [Example] CrushingManager.addRecipe(name as string, output as Percentaged<IItemStack>[], input as IIngredient, duration as int)
 
 //<recipetype:create:crushing>.addRecipe("crushed", [<item:minecraft:diamond> % 50, <item:minecraft:apple>, (<item:minecraft:dirt> * 2) % 12], <item:minecraft:glass>, 200);
 
@@ -90,6 +98,15 @@ craftingTable.addShaped("crafted_book",<item:minecraft:book>, [
 //____________________________________________________________________________________________________________________________
 //                                FILLING
 //____________________________________________________________________________________________________________________________
-// FillingManager.addRecipe(name as string, output as Percentaged<IItemStack>, inputContainer as IIngredient, inputFluid as FluidIngredient, duration as int)
+// [Example] FillingManager.addRecipe(name as string, output as Percentaged<IItemStack>, inputContainer as IIngredient, inputFluid as FluidIngredient, duration as int)
 
-<recipetype:create:filling>.addRecipe("ink_sac", <item:minecraft:ink_sac>, <item:minecraft:glass_bottle>, <fluid:create_enchantment_industry:ink> * 1296, 100);
+<recipetype:create:filling>.addRecipe("ink_sac", <item:minecraft:ink_sac>, <item:minecraft:glass_bottle>, <fluid:create_enchantment_industry:ink> * 1266, 100);
+
+
+//____________________________________________________________________________________________________________________________
+//                                PREVENT RECIPES
+//____________________________________________________________________________________________________________________________
+// [Example] craftingTable.removeByName("minecraft:sugar_from_sugar_cane");
+
+// Prevent Schematicannon
+craftingTable.removeByName("create:crafting/schematics/schematicannon");
